@@ -79,7 +79,7 @@ form{
 }
 span{
    display: flex;
-    align-content: center;
+
 
 }
 
@@ -87,34 +87,50 @@ input{
     box-sizing: border-box;
     width: 100%;
     height: 4em;
-    padding: 0 0 0 0;
-    margin: 0 0 1% 0;
+    padding: 1em 0 0 0;
+    margin: 0em 0 0 0em;
     font-size: 1.2em;
     text-align: center;
 }
 span div select {
     width: 100%;
     box-sizing: border-box;
-    font-size: 18.5em;
     
+}
+span div select option{
+    font-size: 5.5em;
+    background-color: black;
 }
 span div label p{
    text-align: center;
     margin: 1% 0 1% 0;
     font-size: 1.5em;
+    width: 100%;
+}
+label{
+    width: 100%;
+}
+span div input[type=date]{
+    font-size: 1.5em;
+    
     
 }
-
 textarea{
-    height: 3em;
-    width: 100% ;
+    height: 8em;
+    width: 100%;
     margin: 1% 1% 0 0;
+    font-size: 1.5em;
+}
+span div input[type=submit]{
+    width: inherit;
+    
 }
 
 footer{
     display: flex;
     background-color: azure;
     width: 100%;
+
         
 }
 footer p{
